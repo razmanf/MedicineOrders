@@ -1,0 +1,121 @@
+/* style.css */
+
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.medicine-section {
+    margin-bottom: 20px;
+}
+
+.medicine-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* New styles for the cart table */
+#cartTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#cartTable th, #cartTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cartTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Order Summary styles */
+#orderSummary {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#orderSummary div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.total-price {
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Thank you message */
+#thankYouMessage {
+    background-color: #e9f9e9;
+    padding: 15px;
+    border: 1px solid #d4edda;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#backBtn {
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+#payBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
